@@ -7,20 +7,16 @@
     padding: 0 5px;
 }
 
-.menu-img {
-    background-repeat: no-repeat;
-    background-position-x: center;
-}
-.coffee {
-    background-image: url('../img/menu/cappuccino.png');
+.menu-coffee {
+    background:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/menu/cappuccino.png') no-repeat center;
 }
 
-.americano {
-    background-image: url('../img/menu/americano.png');
+.menu-americano {
+    background:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/menu/americano.png') no-repeat center;
 }
 
-.expresso {
-    background-image: url('../img/menu/espresso.png');
+.menu-expresso {
+    background:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/menu/espresso.png') no-repeat center;
 }
 
 .about-ordered-list {
