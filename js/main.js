@@ -128,15 +128,4 @@ $(document).ready(function(){
       $('#header').removeClass('header-scrolled');
     }
   })
-
-
-
-  //Automatic add product
-
-  $('.single-menu').on('click', function(){
-    var value = parseInt( $(this).find('input').val() );
-    $(this).find('input').val(++value);
-    
-  });
-
  });

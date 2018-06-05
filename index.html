@@ -78,7 +78,7 @@
 							</div>
 						</div>
 					</div>						
-					<div class="row">
+					<div class="row" id="products">
 						<div class="col-lg-4">
 							<div class="single-menu menu-coffee">
 								<div class="title-div justify-content-between d-flex">
@@ -110,7 +110,7 @@
 									Usage of the Internet is becoming more common due to rapid advance.
 								</p>	
 								<p class="float-right">
-									<input type="number" name="qtde" min="0" max="10" value="0" class="single-input-number-primary">									
+									<span name="qtde" class="ingle-input-number-primary">0</span>
 								</p>
 								<p class="font-weight-bold float-right">
 									Qtd:&nbsp;
@@ -139,7 +139,7 @@
 					</div>
 					<div class="row float-right">
 						<div class="button-group-area mt-40">
-							<a href="order.html" class="genric-btn primary e-large">Order</a>
+							<a href="javascript:order();" class="genric-btn primary e-large">Order</a>
 						</div>
 					</div>
 				</div>	
@@ -197,9 +197,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</footer>	
 			<!-- End footer Area -->	
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>			
 			<script src="js/main.js"></script>	
+			<script src="js/views/index.js"></script>
 		</body>
 	</html>
 

@@ -8,15 +8,15 @@
 }
 
 .menu-coffee {
-    background:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/menu/cappuccino.png') no-repeat center;
+    background:  linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.5)), url('../img/menu/cappuccino.png') no-repeat center;
 }
 
 .menu-americano {
-    background:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/menu/americano.png') no-repeat center;
+    background:  linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.5)), url('../img/menu/americano.png') no-repeat center;
 }
 
 .menu-expresso {
-    background:  linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/menu/espresso.png') no-repeat center;
+    background:  linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.5)), url('../img/menu/espresso.png') no-repeat center;
 }
 
 .about-ordered-list {
