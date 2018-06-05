@@ -46,6 +46,10 @@ var calcultateTotal = function () {
 
     $(`#total td:nth-child(${2})`).text('$' + usdPrice);
     $(`#total td:nth-child(${3})`).text(iopPrice);
+
+    $('#confirmItems').text(window.orderedList.length);
+    $('#confirmUsdPrice').text('$'+ usdPrice);
+    $('#confirmIopPrice').text(iopPrice);
 }
 
 var buildOrderedList = function () {
@@ -114,7 +118,7 @@ var buildOrderedList = function () {
         $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
         e.preventDefault();
     });
-    
+
     //----- CLOSE
     $('[data-popup-close]').on('click', function (e) {
         var targeted_popup_class = jQuery(this).attr('data-popup-close');
